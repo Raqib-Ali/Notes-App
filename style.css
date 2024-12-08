@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
+body {   
     background-color: azure;
-
+    height: 100dvh; 
 }
 
 .container {
-    margin: 40px 70px;
+    padding: 40px 70px;   
 }
 
 .head-container {
@@ -47,8 +46,8 @@ body {
 
 .note {
     border: 1px solid grey;
-    height: 190px;
     width: 100%;
+    aspect-ratio: 16/9;
     padding: 10px;
     background-color: #fff;
     border-radius: 5px;

@@ -27,7 +27,7 @@ createButton.addEventListener('click', () => {
 function update() {
 
     Array.from(document.querySelectorAll('.note')).map((note, index) => {
-        note.children[0].addEventListener('blur', (e) => {
+        note.children[0].addEventListener('keyup', (e) => {
             saveNotes();
         })
 
