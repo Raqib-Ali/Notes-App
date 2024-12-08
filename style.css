@@ -37,7 +37,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
+
+    @media (width <= 600px) {
+        grid-template-columns: 1fr;
+    }
 }
+
+
 
 .note {
     border: 1px solid grey;
